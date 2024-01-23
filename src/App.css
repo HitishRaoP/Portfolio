@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+.app
+{
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sections
+{
+    width: 100%;
+    height: calc(100vh - 4.375em); /*new*/
+    background-color: lightsalmon;
+    position: absolute;
+    top: 4.375rem;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; /*new*/
+    &::-webkit-scrollbar /*new, To Remove Scroll Bar*/ 
+    {
+        display: none;
+    }
+   
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section
+{
+    width: 100vw;
+    height: calc(100vh - 4.375em);
+    scroll-snap-align: start; /*new*/
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
