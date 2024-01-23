@@ -2,3 +2,9 @@
 {
     --main-color :  #15023a;
 }
+
+a
+{
+    text-decoration: none;
+    color: inherit; /*new*/
+}
