@@ -10,7 +10,7 @@
     background-color: lightsalmon;
     position: absolute;
     top: 4.375rem;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*new*/
     scroll-snap-type: y mandatory; /*new*/
     &::-webkit-scrollbar /*new, To Remove Scroll Bar*/ 
     {
