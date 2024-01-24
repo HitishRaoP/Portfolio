@@ -25,9 +25,9 @@ export default function Topbar() {
         </div>
 
         <div className="right">
-          <div className="hamburger">
-                <MenuIcon />
-          </div>
+       
+          <button className="hamburger">
+            <MenuIcon /></button>
         </div>
       </div>
     </div>
