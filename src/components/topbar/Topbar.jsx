@@ -13,14 +13,21 @@ export default function Topbar() {
           </a>
 
           <div className="items">
+            <div  className="icons" id="phone">
             <PersonIcon />
-            <a className="icons" href="9019205231">
+            <a href="9019205231">
               9019205231
             </a>
+            </div>
+
+            <div className="icons" id="email">
             <EmailIcon />
-            <a href="hitishraop@gmail.com" className="icons">
+            <a href="hitishraop@gmail.com" >
               hitishraop@gmail.com
             </a>
+            </div>
+            
+            
           </div>
         </div>
 
